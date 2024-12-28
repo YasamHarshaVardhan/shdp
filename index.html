@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <div class="user-info">
+        <div class="user-avatar"></div>
+        <span class="user-name">Yasam Harsha Vardhan</span>
+      </div>
+    </header>
+    <div class="chat-box" id="chatBox">
+      <!-- Chat messages will appear here -->
+    </div>
+    <div class="input-container">
+      <form class="chat-form" id="userForm">
+        <label for="userMessage">You:</label>
+        <input type="text" id="userMessage" placeholder="Type your message...">
+        <button type="submit">Send</button>
+      </form>
+      <form class="chat-form" id="otherForm">
+        <label for="otherMessage">Other User:</label>
+        <input type="text" id="otherMessage" placeholder="Type message for other user...">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>
